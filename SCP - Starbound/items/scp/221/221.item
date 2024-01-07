@@ -1,0 +1,10 @@
+{
+  "itemName" : "scp221",
+  "price" : 6000,
+  "rarity" : "Rare",
+  "category" : "craftingMaterial",
+  "inventoryIcon" : "221.png",
+  "description" : "Compulsion Tweezers.",
+  "shortdescription" : "SCP-221",
+  "itemTags" : [ "reagent" ]
+}

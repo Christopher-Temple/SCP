@@ -1,0 +1,29 @@
+{
+  "itemName" : "scp018",
+  "rarity" : "Common",
+  "category" : "throwableItem",
+  "inventoryIcon" : "018.png",
+  "image" : "018.png",
+  "shortdescription" : "SCP-018",
+  "description" : "Appears to be a Super Ball made by the Wham-O company in 1969.",
+
+  "ammoUsage" : 1,
+
+  "edgeTrigger" : true,
+  "windupTime" : 0.0,
+  "cooldown" : 0.4,
+
+  "projectileType" : "scp018",
+  "projectileConfig" : {
+    "speed" : 30,
+    "power" : 0,
+    "periodicActions" : [
+      {
+        "time" : 0,
+        "repeat" : false,
+        "action" : "sound",
+        "options" : [ "/sfx/projectiles/throw_item_small.ogg" ]
+      }
+    ]
+  }
+}

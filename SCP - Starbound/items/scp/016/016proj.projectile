@@ -1,0 +1,21 @@
+{
+  "projectileName" : "016proj",
+  "physics" : "grenade",
+  "bounces" : 0,
+  "image" : "016proj.png",
+  "animationCycle" : 0.5,
+  "frameNumber" : 4,
+  "power" : 5.0,
+  "speed" : 32,
+  "actionOnReap" : [
+    {
+      "action" : "config",
+      "file" : "/projectiles/explosions/watersplash/watersplash.config"
+    }
+  ],
+  "damageKind" : "hunger",
+  "damageKindImage" : "/interface/statuses/doomed.png",
+  "statusEffects" : [
+    "016virus"
+  ]
+}

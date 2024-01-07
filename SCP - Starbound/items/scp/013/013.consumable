@@ -1,0 +1,18 @@
+{
+  "itemName" : "scp013",
+  "rarity" : "Common",
+  "price" : 20,
+  "category" : "medicine",
+  "inventoryIcon" : "013.png",
+  "description" : "Blue Lady Cigarettes",
+  "shortdescription" : "SCP-013",
+  "handPosition" : [8, 0],
+  "effects" : [ [
+      {
+        "effect" : "love",
+        "duration" : 60
+      }
+    ] ],
+  "emote" : "",
+  "emitters" : [ "smoke" ]
+}

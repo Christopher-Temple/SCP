@@ -1,0 +1,15 @@
+{
+  "itemName" : "scp178",
+  "price" : 5000,
+  "inventoryIcon" : "headicon.png",
+  "maxStack" : 1,
+  "rarity" : "Rare",
+  "category" : "headwear",
+  "description" : "3-D Specs",
+  "shortdescription" : "SCP-178",
+  "tooltipKind" : "armor",
+
+  "maleFrames" : "head.png",
+  "femaleFrames" : "head.png",
+  "mask" : "mask.png"
+}

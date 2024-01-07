@@ -1,0 +1,10 @@
+{
+  "itemName" : "scp090",
+  "price" : 60,
+  "rarity" : "Rare",
+  "category" : "craftingMaterial",
+  "inventoryIcon" : "090.png",
+  "description" : "Apocorubik Cube, able to predict events.",
+  "shortdescription" : "SCP-090",
+  "itemTags" : [ "reagent" ]
+}

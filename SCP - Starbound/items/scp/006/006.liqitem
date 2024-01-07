@@ -1,0 +1,10 @@
+{
+  "itemName" : "liquidscp006",
+  "rarity" : "Common",
+  "category" : "liquid",
+  "inventoryIcon" : "006icon.png",
+  "shortdescription" : "SCP-006",
+  "description" : "This water contains healing properties.",
+
+  "liquid" : "scp006"
+}

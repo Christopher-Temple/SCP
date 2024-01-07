@@ -1,0 +1,10 @@
+{
+  "itemName" : "scp005",
+  "price" : 60,
+  "rarity" : "Uncommon",
+  "category" : "craftingMaterial",
+  "inventoryIcon" : "005.png",
+  "description" : "SCP-005 resembles an ornate key.",
+  "shortdescription" : "Skeleton Key",
+  "itemTags" : [ "reagent" ]
+}

@@ -1,0 +1,21 @@
+{
+  "itemName" : "scp010",
+  "price" : 7500,
+  "rarity" : "Legendary",
+  "tooltipKind" : "petcollar",
+  "category" : "petCollar",
+  "inventoryIcon" : "collar.png",
+  "description" : "One of the six control collars.",
+  "shortdescription" : "SCP-010",
+
+  "collar" : {
+    "name" : "damage3",
+    "displayName" : "Damage III",
+    "displayIcon" : "/items/augments/pet/damagecollar.png",
+    "effects" : [ "ragecollar3" ]
+  },
+
+  "radioMessagesOnPickup" : [ "pickupcollar" ],
+
+  "scripts" : [ "/scripts/augments/collar.lua" ]
+}

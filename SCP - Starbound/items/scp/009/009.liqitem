@@ -1,0 +1,10 @@
+{
+  "itemName" : "liquidscp009",
+  "rarity" : "Common",
+  "category" : "liquid",
+  "inventoryIcon" : "009icon.png",
+  "shortdescription" : "SCP-009",
+  "description" : "A measure of cool, clear water.",
+
+  "liquid" : "scp009"
+}

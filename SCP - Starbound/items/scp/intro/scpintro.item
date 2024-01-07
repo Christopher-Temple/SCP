@@ -1,0 +1,8 @@
+{
+  "itemName" : "scpintro",
+  "rarity" : "Common",
+  "category" : "upgradeComponent",
+  "inventoryIcon" : "scpintro.png",
+  "description" : "A recorded message from the SCP.",
+  "shortdescription" : "SCP Intro."
+}

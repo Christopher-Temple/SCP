@@ -1,0 +1,18 @@
+{
+  "itemName" : "scp168",
+  "price" : 1000,
+  "category" : "Tool",
+  "inventoryIcon" : "168icon.png",
+  "rarity" : "Rare",
+  "maxStack" : 1,
+  "description" : "Sentient Calculator",
+  "shortdescription" : "SCP-168",
+  "largeImage" : "168large.png",
+  "tooltipKind" : "tool",
+  "image" : "168.png",
+  "handPosition" : [-2, 0],
+  "lightPosition" : [4, 0],
+  "lightColor" : [220, 220, 220],
+  "beamLevel" : 0,
+  "beamAmbience" : 0.0
+}
