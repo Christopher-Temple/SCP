@@ -1,0 +1,24 @@
+{
+  "itemName" : "scpguncrate",
+  "price" : 0,
+  "level" : 1,
+  "maxStack" : 1,
+  "rarity" : "Legendary",
+  "category" : "mysteriousReward",
+  "description" : "Use this to open it and retrieve your guns!",
+  "shortdescription" : "Gun Crate",
+  "twoHanded" : true,
+
+  "inventoryIcon" : "scpcrateicon.png",
+  "animation" : "scpcrate.animation",
+  "animationCustom" : {},
+  "scripts" : ["scpcrate.lua"],
+
+  "fireTime" : 2.0,
+  "fireOffset" : [1.0, 0.0],
+
+  "treasure" : {
+    "pool" : "scpGunCrate",
+    "level" : 1
+  }
+}

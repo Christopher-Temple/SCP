@@ -1,0 +1,36 @@
+{
+  "itemName" : "scp572",
+  "price" : 960,
+  "level" : 3,
+  "maxStack" : 1,
+  "rarity" : "Rare",
+  "description" : "Katana of Apparent Invincibility",
+  "shortdescription" : "SCP-572",
+  "tooltipKind" : "sword",
+  "category" : "broadsword",
+  "twoHanded" : true,
+  "itemTags" : ["weapon","melee","broadsword"],
+
+  "inventoryIcon" : "572.png",
+
+  "animation" : "/items/active/weapons/melee/broadsword/combobroadsword.animation",
+  "animationParts" : {
+    "handle" : "",
+    "blade" : "572.png"
+  },
+  "animationCustom" : { },
+
+  "scripts" : ["/items/active/weapons/melee/meleeweapon.lua"],
+
+  "elementalType" : "physical",
+
+  "primaryAbilityType" : "broadswordcombo",
+  "primaryAbility" : {
+    "fireTime" : 0.53,
+    "baseDps" : 8.5
+  },
+
+  "altAbilityType" : "parry",
+
+  "builder" : "/items/buildscripts/buildunrandweapon.lua"
+}
