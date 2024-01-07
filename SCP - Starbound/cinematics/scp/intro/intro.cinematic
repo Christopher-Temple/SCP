@@ -1,0 +1,262 @@
+{
+  "muteSfx" : true,
+  "muteMusic" : true,
+  "panels" : [
+    {
+      "drawables" : [
+        {
+          "image" : "/cinematics/scp/intro/black.png"
+        }
+      ],
+      "keyframes" : [
+        {
+          "timecode" : 0,
+          "zoom" : 500,
+          "alpha" : 1,
+          "position" : [480, 290]
+        }
+      ]
+    },
+    {
+      "drawables" : [
+        {
+          "image" : "/cinematics/scp/intro/1.png"
+        }
+      ],
+      "keyframes" : [
+        {
+          "timecode" : 0,
+          "zoom" : 1.5,
+          "alpha" : 1,
+          "position" : [480, 290]
+        },
+        {
+          "timecode" : 3,
+          "alpha" : 1,
+          "zoom" : 1.5
+        },
+        {
+          "timecode" : 5,
+          "alpha" : 0,
+          "zoom" : 1.5
+        }
+      ]
+    },
+    {
+      "drawables" : [
+        {
+          "image" : "/cinematics/scp/intro/2.png"
+        }
+      ],
+      "keyframes" : [
+        {
+          "timecode" : 4,
+          "zoom" : 1.5,
+          "alpha" : 0,
+          "position" : [480, 290]
+        },
+        {
+          "timecode" : 5,
+          "zoom" : 1.5,
+          "alpha" : 1
+        },
+        {
+          "timecode" : 10,
+          "alpha" : 1,
+          "zoom" : 1.5
+        },
+        {
+          "timecode" : 12,
+          "alpha" : 0,
+          "zoom" : 1.5
+        }
+      ]
+    },
+    {
+      "drawables" : [
+        {
+          "image" : "/cinematics/scp/intro/3.png"
+        }
+      ],
+      "keyframes" : [
+        {
+          "timecode" : 11,
+          "zoom" : 1.5,
+          "alpha" : 0,
+          "position" : [480, 290]
+        },
+        {
+          "timecode" : 12,
+          "zoom" : 1.5,
+          "alpha" : 1
+        },
+        {
+          "timecode" : 14,
+          "zoom" : 1.5,
+          "alpha" : 1
+        },
+        {
+          "timecode" : 16,
+          "alpha" : 0,
+          "zoom" : 1.5
+        }
+      ]
+    },
+    {
+      "drawables" : [
+        {
+          "image" : "/cinematics/scp/intro/4.png"
+        }
+      ],
+      "keyframes" : [
+        {
+          "timecode" : 14,
+          "zoom" : 1.5,
+          "alpha" : 0,
+          "position" : [480, 290]
+        },
+        {
+          "timecode" : 16,
+          "alpha" : 1,
+          "zoom" : 1.5
+        },
+        {
+          "timecode" : 21,
+          "alpha" : 1,
+          "zoom" : 1.5
+        },
+        {
+          "timecode" : 23,
+          "alpha" : 0,
+          "zoom" : 1.5
+        }
+      ]
+    },
+    {
+      "drawables" : [
+        {
+          "image" : "/cinematics/scp/intro/4b.png"
+        }
+      ],
+      "keyframes" : [
+        {
+          "timecode" : 21,
+          "zoom" : 1.5,
+          "alpha" : 0,
+          "position" : [480, 290]
+        },
+        {
+          "timecode" : 23,
+          "alpha" : 1,
+          "zoom" : 1.5
+        },
+        {
+          "timecode" : 27,
+          "alpha" : 1,
+          "zoom" : 1.5
+        },
+        {
+          "timecode" : 29,
+          "alpha" : 0,
+          "zoom" : 1.5
+        }
+      ]
+    },
+    {
+      "drawables" : [
+        {
+          "image" : "/cinematics/scp/intro/5.png"
+        }
+      ],
+      "keyframes" : [
+        {
+          "timecode" : 27,
+          "zoom" : 1.5,
+          "alpha" : 0,
+          "position" : [480, 290]
+        },
+        {
+          "timecode" : 29,
+          "alpha" : 1,
+          "zoom" : 1.5
+        },
+        {
+          "timecode" : 34,
+          "alpha" : 1,
+          "zoom" : 1.5
+        },
+        {
+          "timecode" : 36,
+          "alpha" : 0,
+          "zoom" : 1.5
+        }
+      ]
+    },
+    {
+      "drawables" : [
+        {
+          "image" : "/cinematics/scp/intro/6.png"
+        }
+      ],
+      "keyframes" : [
+        {
+          "timecode" : 34,
+          "zoom" : 1.5,
+          "alpha" : 0,
+          "position" : [480, 290]
+        },
+        {
+          "timecode" : 36,
+          "alpha" : 1,
+          "zoom" : 1.5
+        },
+        {
+          "timecode" : 43,
+          "alpha" : 1,
+          "zoom" : 1.5
+        },
+        {
+          "timecode" : 45,
+          "alpha" : 0,
+          "zoom" : 1.5
+        }
+      ]
+    },
+	{
+      "drawables" : [
+        {
+          "image" : "/cinematics/scp/intro/7.png"
+        }
+      ],
+      "keyframes" : [
+        {
+          "timecode" : 43,
+          "zoom" : 1.5,
+          "alpha" : 0,
+          "position" : [480, 290]
+        },
+        {
+          "timecode" : 45,
+          "alpha" : 1,
+          "zoom" : 1.5
+        },
+        {
+          "timecode" : 50,
+          "alpha" : 1,
+          "zoom" : 1.5
+        },
+        {
+          "timecode" : 52,
+          "alpha" : 0,
+          "zoom" : 1.5
+        }
+      ]
+    }
+  ],
+  "audio" : [
+    {
+      "timecode" : 0.1,
+      "resource" : "/sfx/scp/fear.ogg"
+    }
+  ]
+}

@@ -1,0 +1,17 @@
+{
+  "id" : "scpbook",
+  
+  "title" : "S.C.P.",
+  "description" : "Welcome to MTF Upsilon-77",
+  "icon" : "scpcover.png",
+  "species": "scp",
+  "contentPages" : [
+    "Welcome new recruit. There is much information for you to learn, and very little time. Your job as part of MTF Upsilon-77 will be to find lost SCP
+	that are scattered throughout the galaxy. There is more information on obtained SCP by using an old archive found at http://www.scp-wiki.net/
+	        - The Administrator "
+  ],
+    "itemConfig" : {
+    "rarity" : "common",
+    "price" : 25
+  }
+}
