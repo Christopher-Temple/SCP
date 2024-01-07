@@ -1,0 +1,217 @@
+{
+  "type" : "scpmerchant",
+  "baseType" : "base",
+  
+  "persistent" : true,
+  "damageTeamType" : "friendly",
+
+  "dropPools" : [ "basicTreasure" ],
+
+  "scripts" : [
+    "/npcs/bmain.lua"
+  ],
+  "initialScriptDelta" : 5,
+  "scriptConfig" : {
+    "behavior" : "merchant",
+
+    "behaviorConfig" : {
+      "noticePlayersRadius" : 20,
+
+      "hostileDamageTeam" : { "type" : "enemy", "team" : 1 }
+    },
+
+    "questGenerator" : {
+      "pools" : ["common"],
+      "enableParticipation" : false,
+
+      "timeLimit" : 30,
+      "chance" : 0.02,
+      "nearbyQuestLimit" : 2,
+      "nearbyQuestRange" : 50
+    },
+
+    "reactions" : {
+      "spontaneous" : [
+        [5.0, "sleep", { "timeRange" : [0.7, 0.9] }],
+        [1.0, "sit", { "timeRange" : [0.6,0.2]}],
+        [1.0, "wander", { "timeRange" : [0.2, 0.6] }]
+      ]
+    },
+
+    "merchant" : {
+      "waitTime" : 40,
+      "storeRadius" : 16,
+      "poolsFile" : "/npcs/scp/scpmerchantpools.config",
+      "categories" : {
+        "default" : ["scp"],
+        "apex" : ["scp" ],
+        "avian" : ["scp"],
+        "floran" : ["scp" ],
+        "glitch" : ["scp" ],
+        "human" : ["scp"],
+        "hylotl" : ["scp"],
+        "novakid" : ["scp" ]
+      },
+      "buyFactorRange" : [ 0.9, 1.2 ],
+      "sellFactorRange" : [ 0.2, 0.2 ],
+      "numItems" : 10
+    },
+    "dialog" : {
+      "merchant" : {
+        "start" : "/dialog/merchant.config:merchantStart",
+        "end" : "/dialog/merchant.config:merchantEnd",
+        "follow" : "/dialog/merchant.config:follow",
+        "welcome" : "/dialog/merchant.config:welcome",
+        "tout" : "/dialog/merchant.config:tout"
+      },
+      "flee" : {
+        "helpme" : "/dialog/flee.config:helpme",
+        "safe" : "/dialog/flee.config:safe"
+      },
+      "tenant" : {
+        "grumbles" : {
+          "tagCriteria" : "/dialog/merchant.config:tagCriteria",
+          "enclosedArea" : "/dialog/merchant.config:enclosedArea",
+          "otherDeed" : "/dialog/merchant.config:otherDeed",
+          "severe" : "/dialog/merchant.config:severe",
+          "final" : "/dialog/merchant.config:final"
+        },
+        "arrivedHome" : {
+          "beacon" : "/dialog/merchant.config:beacon",
+          "rent" : "/dialog/merchant.config:rent"
+        }
+      },
+      "accuse" : "/dialog/thief.config:accuse",
+      "alert" : "/dialog/thief.config:alert"
+    }
+  },
+
+  "items" : {
+    "human" : [
+      [0, [
+          {
+            "head" : [
+              { "name" : "scpmtfhead"},
+              { "name" : "scpmtfhead"}
+            ],
+            "chest" : [
+              { "name" : "scpmtfchest"},
+              { "name" : "scpmtfchest"}
+            ],
+            "legs" : [
+              { "name" : "scpmtflegs"},
+              { "name" : "scpmtflegs"}
+            ]
+          }
+      ]]
+    ],
+    "avian" : [
+      [0, [
+          {
+            "head" : [
+              { "name" : "scpmtfhead"},
+              { "name" : "scpmtfhead"}
+            ],
+            "chest" : [
+              { "name" : "scpmtfchest"},
+              { "name" : "scpmtfchest"}
+            ],
+            "legs" : [
+              { "name" : "scpmtflegs"},
+              { "name" : "scpmtflegs"}
+            ]
+          }
+      ]]
+    ],
+    "apex" : [
+      [0, [
+          {
+            "head" : [
+              { "name" : "scpmtfhead"},
+              { "name" : "scpmtfhead"}
+            ],
+            "chest" : [
+              { "name" : "scpmtfchest"},
+              { "name" : "scpmtfchest"}
+            ],
+            "legs" : [
+              { "name" : "scpmtflegs"},
+              { "name" : "scpmtflegs"}
+            ]
+          }
+      ]]
+    ],
+    "floran" : [
+      [0, [
+          {
+            "head" : [
+              { "name" : "scpmtfhead"},
+              { "name" : "scpmtfhead"}
+            ],
+            "chest" : [
+              { "name" : "scpmtfchest"},
+              { "name" : "scpmtfchest"}
+            ],
+            "legs" : [
+              { "name" : "scpmtflegs"},
+              { "name" : "scpmtflegs"}
+            ]
+          }
+      ]]
+    ],
+    "glitch" : [
+      [0, [
+          {
+            "head" : [
+              { "name" : "scpmtfhead"},
+              { "name" : "scpmtfhead"}
+            ],
+            "chest" : [
+              { "name" : "scpmtfchest"},
+              { "name" : "scpmtfchest"}
+            ],
+            "legs" : [
+              { "name" : "scpmtflegs"},
+              { "name" : "scpmtflegs"}
+            ]
+          }
+      ]]
+    ],
+    "hylotl" : [
+      [0, [
+          {
+            "head" : [
+              { "name" : "scpmtfhead"},
+              { "name" : "scpmtfhead"}
+            ],
+            "chest" : [
+              { "name" : "scpmtfchest"},
+              { "name" : "scpmtfchest"}
+            ],
+            "legs" : [
+              { "name" : "scpmtflegs"},
+              { "name" : "scpmtflegs"}
+            ]
+          }
+      ]]
+    ],
+    "novakid" : [
+      [0, [
+          {
+            "head" : [
+              { "name" : "scpmtfhead"},
+              { "name" : "scpmtfhead"}
+            ],
+            "chest" : [
+              { "name" : "scpmtfchest"},
+              { "name" : "scpmtfchest"}
+            ],
+            "legs" : [
+              { "name" : "scpmtflegs"},
+              { "name" : "scpmtflegs"}
+            ]
+          }
+      ]]
+    ]
+  }
+}

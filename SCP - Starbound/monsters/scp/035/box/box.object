@@ -1,0 +1,44 @@
+{
+  "objectName" : "035box",
+  "colonyTags" : ["scp"],
+  "price" : 100,
+  "printable" : false,
+  "rarity" : "Uncommon",
+  "description" : "Place this crate on the ground, then interact to open it.",
+  "shortdescription" : " SCP Crate",
+  "race" : "generic",
+  "category" : "decorative",
+
+  "inventoryIcon" : "boxicon.png",
+  "orientations" : [
+    {
+      "image" : "box.png:<color>",
+      "imagePosition" : [0, 0],
+      "direction" : "left",
+      "flipImages" : true,
+      "frames" : 1,
+      "animationCycle" : 1.5,
+
+      "spaceScan" : 0.1,
+      "anchors" : [ "bottom" ]
+    },
+    {
+      "image" : "box.png:<color>",
+      "imagePosition" : [0, 0],
+      "direction" : "right",
+      "frames" : 1,
+      "animationCycle" : 1.5,
+
+      "spaceScan" : 0.1,
+      "anchors" : [ "bottom" ]
+    }
+  ],
+
+  "unbreakable" : true,
+  "rooting" : true,
+
+  "breakDropPool" : "empty",
+
+  "scripts" : [ "box.lua" ],
+  "scriptDelta" : 60
+}

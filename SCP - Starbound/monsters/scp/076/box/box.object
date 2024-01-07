@@ -1,0 +1,44 @@
+{
+  "objectName" : "076box",
+  "colonyTags" : ["scp"],
+  "price" : 1000,
+  "printable" : false,
+  "rarity" : "Rare",
+  "description" : "A stone cube that contains SCP-076-2",
+  "shortdescription" : "SCP-076-1",
+  "race" : "generic",
+  "category" : "decorative",
+
+  "inventoryIcon" : "boxicon.png",
+  "orientations" : [
+    {
+      "image" : "box.png",
+      "imagePosition" : [0, 0],
+      "direction" : "left",
+      "flipImages" : true,
+      "frames" : 1,
+      "animationCycle" : 1.5,
+
+      "spaceScan" : 0.1,
+      "anchors" : [ "bottom" ]
+    },
+    {
+      "image" : "box.png",
+      "imagePosition" : [0, 0],
+      "direction" : "right",
+      "frames" : 1,
+      "animationCycle" : 1.5,
+
+      "spaceScan" : 0.1,
+      "anchors" : [ "bottom" ]
+    }
+  ],
+
+  "unbreakable" : true,
+  "rooting" : true,
+
+  "breakDropPool" : "empty",
+
+  "scripts" : [ "box.lua" ],
+  "scriptDelta" : 60
+}

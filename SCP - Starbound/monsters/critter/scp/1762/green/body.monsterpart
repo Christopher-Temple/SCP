@@ -1,0 +1,9 @@
+{
+  "name" : "scp1762-2g",
+  "category" : "scp1762-2g",
+  "type" : "body",
+
+  "frames" : {
+    "body" : "body.png"
+  }
+}

@@ -1,0 +1,50 @@
+{
+  "type" : "scpguardtenant",
+  "baseType" : "villageguard",
+
+  "scriptConfig" : {
+    "questGenerator" : { "pools" : [], "enableParticipation" : true,
+     "graduation" : {
+        "nextNpcType" : [
+          [1, "scpcrewmember"]
+        ]
+       }	
+	  },
+    
+    "behaviorConfig" : {
+      "greetingChance" : 0
+    },
+
+    "dialog" : {
+      "converse" : "/dialog/scp/guard/guard.config:converse",
+	  "greeting" : "/dialog/scp/guard/converse.config:greeting",
+      "attack" : "/dialog/scp/guard/combat.config:attack",
+      "reattack" : "/dialog/scp/guard/combat.config:reattack",
+      "killedTarget" : "/dialog/scp/guard/combat.config:killedTarget",
+      "lostTarget" : "/dialog/scp/guard/combat.config:lostTarget",
+      "outOfSight" : "/dialog/scp/guard/combat.config:outOfSight",
+      "cheerOn" : "/dialog/scp/guard/combat.config:cheerOn",
+      "cantReach" : "/dialog/scp/guard/combat.config:cantReach",
+
+      "hail" : "/dialog/scp/guard/guard.config:hail",
+
+      "accuse" : "/dialog/thief.config:accuse"
+    }
+  },
+   
+
+  "items" : {
+    "override" : [
+      [0, [
+          {
+           "head" : [ { "name" : "scpguardhead"} ],
+            "chest" : [ { "name" : "scpguardchest" } ],
+            "legs" : [ { "name" : "scpguardlegs" } ],
+            "primary" : [ 
+               "scpsmg", "scpar15", "scpvector", "scpskorpion" 
+            ]
+          }
+        ] ]
+    ]
+  }
+}

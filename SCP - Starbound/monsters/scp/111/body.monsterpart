@@ -1,0 +1,9 @@
+{
+  "name" : "scp111",
+  "category" : "scp111",
+  "type" : "body",
+
+  "frames" : {
+    "body" : "111.png"
+  }
+}

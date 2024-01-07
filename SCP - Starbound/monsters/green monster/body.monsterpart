@@ -1,0 +1,9 @@
+{
+  "name" : "body",
+  "category" : "greenpogolem",
+  "type" : "body",
+
+  "frames" : {
+    "body" : "pogolem.png"
+  }
+}

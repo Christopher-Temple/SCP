@@ -1,0 +1,9 @@
+{
+  "name" : "049zombie",
+  "category" : "049zombie",
+  "type" : "body",
+
+  "frames" : {
+    "body" : "049zombie.png"
+  }
+}
