@@ -1,0 +1,36 @@
+{
+  "objectName" : "scp015",
+  "colonyTags" : ["scp"],
+  "rarity" : "Common",
+  "category" : "decorative",
+  "price" : 60,
+  "description" : "A mass of pipes, vents, boilers and other various plumbing apparatus.",
+  "shortdescription" : "SCP-015",
+  "race" : "floran",
+
+
+  "inventoryIcon" : "015icon.png",
+  "orientations" : [
+    {
+      "image" : "015.png",
+      "direction" : "left",
+      "flipImages" : true,
+      "imagePosition" : [-8, 0],
+      "frames" : 1,
+      "animationCycle" : 0.5,
+
+      "spaceScan" : 0.1,
+      "anchors" : [ "bottom" ]
+    },
+    {
+      "image" : "015.png",
+      "direction" : "right",
+      "imagePosition" : [0, 0],
+      "frames" : 1,
+      "animationCycle" : 0.5,
+
+      "spaceScan" : 0.1,
+      "anchors" : [ "bottom" ]
+    }
+  ]
+}

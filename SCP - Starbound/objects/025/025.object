@@ -1,0 +1,36 @@
+{
+  "objectName" : "scp025",
+  "colonyTags" : ["scp"],
+  "rarity" : "Rare",
+  "objectType" : "container",
+  "tooltipKind" : "container",
+  "description" : "SCP-025 is a wooden wardrobe full of clothing dating from a number of time periods.",
+  "shortdescription" : "SCp-025",
+  "race" : "apex",
+  "category" : "storage",
+  "price" : 160,
+  "health" : 1.5,
+
+
+  "inventoryIcon" : "025icon.png",
+  "orientations" : [
+    {
+      "dualImage" : "025.png:<color>",
+
+      "imagePosition" : [-16, 0],
+      "frames" : 1,
+      "animationCycle" : 1.0,
+
+      "spaceScan" : 0.1,
+      "anchors" : [ "bottom" ],
+      "collision" : "platform"
+
+    }
+  ],
+  "openSounds" : [ "/sfx/objects/woodendoor_open.ogg" ],
+  "closeSounds" : [ "/sfx/objects/woodendoor_close.ogg" ],
+  "slotCount" : 32,
+  "uiConfig" : "/interface/chests/chest<slots>.config",
+  "frameCooldown" : 5,
+  "autoCloseCooldown" : 3600
+}

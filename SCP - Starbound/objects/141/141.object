@@ -1,0 +1,27 @@
+{
+  "objectName" : "scp141",
+  "colonyTags" : ["scp"],
+  "rarity" : "Rare",
+  "description" : "Codex Damnatio",
+  "shortdescription" : "SCP-141",
+ 
+  "category" : "decoration",
+  "price" : 160,
+  "health" : 1.5,
+
+
+  "inventoryIcon" : "141icon.png",
+  "orientations" : [
+    {
+      "dualImage" : "141.png",
+
+      "imagePosition" : [-8, 0],
+      "frames" : 1,
+      "animationCycle" : 1.0,
+
+      "spaceScan" : 0.1,
+      "anchors" : [ "bottom" ]
+    }
+  ]
+ 
+}

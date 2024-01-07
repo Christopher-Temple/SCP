@@ -1,0 +1,31 @@
+{
+  "objectName" : "scp002",
+  "colonyTags" : ["scp"],
+  "printable" : false,
+  "rarity" : "Legendary",
+  "description" : "SCP-002 resembles a tumorous, fleshy growth with an iron hatch on the side.",
+  "price" : 4000,
+  "shortdescription" : "The Living Room",
+  "race" : "generic",
+  "category" : "other",
+  
+  
+  
+  "inventoryIcon" : "icon.png",
+  "orientations" : [
+    {
+      "dualImage" : "002.png:<color>",
+      "imagePosition" : [0, 0],
+      "frames" : 1,
+      "animationCycle" : 1.0,
+
+      "spaceScan" : 0.1,
+      "anchors" : [ "bottom" ]
+    }
+  ],
+  
+  "health" : 8,
+  
+  "interactAction" : "OpenTeleportDialog",
+  "interactData" : "/interface/warping/002.config"
+}

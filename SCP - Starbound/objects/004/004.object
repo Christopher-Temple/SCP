@@ -1,0 +1,31 @@
+{
+  "objectName" : "scp004",
+  "colonyTags" : ["scp"],
+  "printable" : false,
+  "rarity" : "Legendary",
+  "description" : "SCP-004 resembles an old wooden barn door.",
+  "price" : 4000,
+  "shortdescription" : "SCP-004",
+  "race" : "generic",
+  "category" : "other",
+  
+  
+  
+  "inventoryIcon" : "icon.png",
+  "orientations" : [
+    {
+      "dualImage" : "004.png:<color>",
+      "imagePosition" : [0, 0],
+      "frames" : 1,
+      "animationCycle" : 1.0,
+
+      "spaceScan" : 0.1,
+      "anchors" : [ "bottom" ]
+    }
+  ],
+  
+  "health" : 8,
+  
+  "interactAction" : "OpenTeleportDialog",
+  "interactData" : "/interface/warping/004.config"
+}

@@ -1,0 +1,55 @@
+{
+  "objectName" : "scp079",
+  "colonyTags" : ["wired"],
+  "printable" : false,
+  "rarity" : "Common",
+  "description" : "Exidy Sorcerer microcomputer with an AI.",
+  "shortdescription" : "SCP 079",
+  "race" : "generic",
+
+  
+  "category" : "wire",
+  "price" : 1500,
+
+  "inventoryIcon" : "scp079icon.png",
+  "orientations" : [
+    {
+      "dualImage" : "scp079.png:<color>.off",
+      "imagePosition" : [0, 0],
+
+      "spaceScan" : 0.1,
+      "anchors" : [ "background" ]
+    }
+  ],
+
+  "scripts" : [
+    "/objects/wired/switch/switch.lua",
+    "/scripts/npcToyObject.lua"
+  ],
+  "scriptDelta" : 5,
+
+  "animation" : "/objects/wired/switch/switchtoggle.animation",
+  "animationCustom" : {
+    "sounds" : {
+      "on" : [ "/sfx/scp/079offer.ogg" ],
+      "off" : [ "/sfx/scp/079anger.ogg" ]
+    }
+  },
+  "animationParts" : {
+    "switch" : "scp079.png"
+  },
+  "animationPosition" : [0, 0],
+
+  "outputNodes" : [ [0, 0] ],
+
+  "npcToy": {
+    "ownerOnly" : true,
+    "influence" : [
+      "wallswitch"
+    ],
+    "preciseStandPositionLeft" : [-1.0, 0.0],
+    "preciseStandPositionRight" : [1.0, 0.0],
+    "defaultReactions" : {},
+    "maxNpcs" : 1
+  }
+}

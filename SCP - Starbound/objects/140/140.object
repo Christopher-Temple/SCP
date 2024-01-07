@@ -1,0 +1,27 @@
+{
+  "objectName" : "scp140",
+  "colonyTags" : ["scp"],
+  "rarity" : "Rare",
+  "description" : "A Chronicle of the Daevas",
+  "shortdescription" : "SCP-140",
+ 
+  "category" : "decoration",
+  "price" : 160,
+  "health" : 1.5,
+
+
+  "inventoryIcon" : "140icon.png",
+  "orientations" : [
+    {
+      "dualImage" : "140.png",
+
+      "imagePosition" : [-8, 0],
+      "frames" : 1,
+      "animationCycle" : 1.0,
+
+      "spaceScan" : 0.1,
+      "anchors" : [ "bottom" ]
+    }
+  ]
+ 
+}

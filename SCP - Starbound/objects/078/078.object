@@ -1,0 +1,27 @@
+{
+  "objectName" : "scp078",
+  "colonyTags" : ["scp"],
+  "rarity" : "Rare",
+  "category" : "decorative",
+  "price" : 90,
+  "lightColor" : [175, 65, 230],
+
+  "description" : "A neon \"TOO LATE TO DIE YOUNG\" sign.",
+  "shortdescription" : "SCP-078",
+  "race" : "human",
+
+ 
+  "inventoryIcon" : "078icon.png",
+  "orientations" : [
+    {
+      "image" : "078.png:<color>.<frame>",
+      "imagePosition" : [-16, -8],
+      "frames" : 2,
+      "animationCycle" : 0.4,
+
+      "spaceScan" : 0.1,
+      "anchors" : [ "background" ]
+
+    }
+  ]
+}

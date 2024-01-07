@@ -1,0 +1,49 @@
+{
+  "objectName" : "scp019",
+  "colonyTags" : ["scp"],
+  "rarity" : "Common",
+
+  "category" : "trap",
+  "price" : 75,
+  "description" : "Style and decoration indicate it was possibly created in Classical Greece.",
+  "shortdescription" : "SCP-019",
+  "race" : "generic",
+
+  
+
+  "inventoryIcon" : "019icon.png",
+  "orientations" : [
+    {
+      "dualImage" : "019.png:<color>",
+
+      "imagePosition" : [-8, 0],
+      "frames" : 1,
+      "animationCycle" : 0.5,
+
+      "spaceScan" : 0.1,
+      "anchors" : [ "bottom" ]
+
+    }
+  ],
+  
+  "scripts" : [ "/objects/spawner/monsterspawner.lua" ],
+  "scriptDelta" : 10,
+
+  "inputNodes" : [ [-1, 0] ],
+
+  "spawner" : {
+    "monsterTypes" : ["019-2"], //type of monster to spawn (random from list)
+    "monsterLevel" : [1, 10], //level of monster to spawn (random within range, or leave blank for world threat level)
+    "monsterParams" : { //additional parameters of spawned monster
+      "aggressive" : true
+    },
+    "position" : [0, 1], //relative position to spawn at
+    "positionVariance" : [10, 0], //[x,y] size of randomized spawn area, centered on position
+    "frequency" : [50.0, 80.0], //cooldown time between spawns (random within range)
+    "stock" : -1, //total number of spawns, -1 for infinite
+    "trigger" : null, //options include "wire", "interact", "break", null (periodic)
+    "outOfSight" : false //only spawn where the player can't see
+  },
+
+  "smashOnBreak" : false
+}

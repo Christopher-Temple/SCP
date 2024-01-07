@@ -1,0 +1,46 @@
+{
+  "objectName" : "scp119",
+  "colonyTags" : ["scp"],
+  "rarity" : "Rare",
+  "category" : "decoration",
+  "price" : 70,
+  "description" : "Rapidly ages anything put inside.",
+  "shortdescription" : "SCP-119",
+  "race" : "human",
+
+  "lightColor" : [153, 151, 116],
+
+  "interactAction" : "OpenCraftingInterface",
+  "interactData" : {
+    "config" : "/interface/windowconfig/119.config",
+    "filter" : [ "119" ]
+    },
+
+  
+  "inventoryIcon" : "microwaveicon.png",
+  "orientations" : [
+    {
+      "imageLayers" : [ { "image" : "microwave.png:<frame>", "fullbright" : true }, { "image" : "microwavelit.png:<frame>" } ],
+      "imagePosition" : [-8, 0],
+      "direction" : "left",
+      "flipImages" : true,
+      "frames" : 4,
+      "animationCycle" : 1.0,
+
+      "spaceScan" : 0.1,
+      "anchors" : [ "bottom" ],
+      "collision" : "platform"
+    },
+    {
+      "imageLayers" : [ { "image" : "microwave.png:<frame>", "fullbright" : true }, { "image" : "microwavelit.png:<frame>" } ],
+      "imagePosition" : [-8, 0],
+      "direction" : "right",
+      "frames" : 4,
+      "animationCycle" : 1.0,
+
+      "spaceScan" : 0.1,
+      "anchors" : [ "bottom" ],
+      "collision" : "platform"
+    }
+  ]
+}

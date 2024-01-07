@@ -1,0 +1,26 @@
+{
+  "objectName" : "scp099",
+  "colonyTags" : ["scp"],
+  "rarity" : "Rare",
+  "category" : "decorative",
+  "price" : 900,
+  "printable" : false,
+
+  "description" : "Created in 1935 by surrealist painter René Magritte.",
+  "shortdescription" : "SCP-099",
+  "race" : "generic",
+
+  
+
+  "inventoryIcon" : "099icon.png",
+  "orientations" : [
+    {
+      "image" : "099.png:<color>",
+      "imagePosition" : [-16, -16],
+      "direction" : "right",
+
+      "spaceScan" : 0.1,
+      "anchors" : [ "background" ]
+    }
+  ]
+}

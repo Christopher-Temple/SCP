@@ -1,0 +1,35 @@
+{
+  "objectName" : "scp037",
+  "colonyTags" : ["scp"],
+  "rarity" : "Rare",
+  "description" : "A dwarf star.",
+  "shortdescription" : "SCP-037",
+  "race" : "generic",
+
+  "category" : "light",
+  "printable" : false,
+
+  "lightColor" : [191, 140, 57],
+
+  "inventoryIcon" : "037.png",
+
+  "orientations" : [
+    {
+      "imageLayers" : [ { "image" : "037.png", "fullbright" : true }, { "image" : "037lit.png" } ],
+      "flipImages" : true,
+      "imagePosition" : [-16, 0],
+      "spaceScan" : 0.1,
+      "anchors" : [ "bottom" ],
+      "direction" : "left",
+      "lightPosition" : [0, 2]
+    },
+    {
+      "imageLayers" : [ { "image" : "037.png", "fullbright" : true }, { "image" : "037lit.png" } ],
+      "imagePosition" : [-16, 0],
+      "spaceScan" : 0.1,
+      "anchors" : [ "bottom" ],
+      "direction" : "right",
+      "lightPosition" : [0, 2]
+    }
+  ]
+}

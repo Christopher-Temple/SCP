@@ -1,0 +1,27 @@
+{
+  "objectName" : "scp091",
+  "colonyTags" : ["scp"],
+  "rarity" : "Rare",
+  "description" : "Appears to be a box of tissue that promotes nostalgia.",
+  "shortdescription" : "SCP-091",
+  "race" : "human",
+  "category" : "decoration",
+  "price" : 160,
+  "health" : 1.5,
+
+
+  "inventoryIcon" : "091icon.png",
+  "orientations" : [
+    {
+      "dualImage" : "091.png:<color>",
+
+      "imagePosition" : [-16, 0],
+      "frames" : 1,
+      "animationCycle" : 1.0,
+
+      "spaceScan" : 0.1,
+      "anchors" : [ "bottom" ]
+    }
+  ]
+ 
+}

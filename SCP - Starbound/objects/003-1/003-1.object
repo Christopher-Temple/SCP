@@ -1,0 +1,45 @@
+{
+  "objectName" : "scp003-1",
+  "colonyTags" : ["scp"],
+  "price" : 100,
+  "printable" : false,
+  "rarity" : "Legendary",
+  "description" : "Appears to be a motherboard composed of chitin, hair, and nails of unknown biology.",
+  "shortdescription" : "SCP-003-1",
+  "race" : "generic",
+  "category" : "decorative",
+
+
+  "inventoryIcon" : "003-1.png",
+  "orientations" : [
+    {
+      "image" : "003-1.png:<color>.<frame>",
+      "imagePosition" : [0, 0],
+      "direction" : "left",
+      "flipImages" : true,
+      "frames" : 1,
+      "animationCycle" : 1.5,
+
+      "spaceScan" : 0.1,
+      "anchors" : [ "bottom" ]
+    },
+    {
+      "image" : "003-1.png:<color>.<frame>",
+      "imagePosition" : [0, 0],
+      "direction" : "right",
+      "frames" : 1,
+      "animationCycle" : 1.5,
+
+      "spaceScan" : 0.1,
+      "anchors" : [ "bottom" ]
+    }
+  ],
+
+  
+  "rooting" : true,
+
+  "breakDropPool" : "empty",
+
+  "scripts" : [ "003-1.lua" ],
+  "scriptDelta" : 60
+}

@@ -1,0 +1,30 @@
+{
+  "objectName" : "scp139",
+  "colonyTags" : ["scp"],
+  "printable" : false,
+  "race" : "generic",
+  "rarity" : "Rare",
+  "price" : 125,
+  "category" : "decorative",
+  "description" : "Possible Skull of the White Div.",
+  "shortdescription" : "SCP-139",
+  
+    
+
+  "inventoryIcon" : "139.png",
+  "orientations" : [
+    {
+      "dualImage" : "139.png",
+
+      "imagePosition" : [-4, 0],
+      "frames" : 1,
+      "animationCycle" : 1.0,
+
+      "spaceScan" : 0.1,
+      "anchors" : [ "bottom" ]
+
+    }
+  ]
+}
+
+

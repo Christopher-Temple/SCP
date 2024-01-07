@@ -1,0 +1,24 @@
+{
+  "objectName" : "scp014",
+  "colonyTags" : ["pretty","valuable"],
+  "rarity" : "Legendary",
+  "description" : "He thinks he's concrete, and will live forever, and so he's as close to both as he can be. ",
+  "shortdescription" : "SCP-014",
+  "category" : "decorative",
+  "price" : 1250,
+  "printable" : false,
+
+  "inventoryIcon" : "014icon.png",
+  "orientations" : [
+    {
+      "dualImage" : "014.png:",
+      "imagePosition" : [-8, 0],
+
+      "spaceScan" : 0.1,
+      "anchors" : [ "bottom" ]
+
+    }
+  ],
+
+  "npcToy" : {}
+}
