@@ -1,0 +1,23 @@
+{
+  "metadata" : {
+    "name" : "site116",
+    "species" : "generic",
+    "rules" : [
+    ],
+    "anchor" : [ "site116" ],
+    "gravity" : 40,
+    "maxRadius" : 1000000,
+    "maxParts" : 100,
+	 "protected" : true
+  },
+
+  "parts" : [
+    {
+      "name" : "site116",
+      "rules" : [
+        [ "maxSpawnCount", [1] ]
+      ],
+      "def" : [ "tmx", "site116.json" ]
+    }
+  ]
+}
