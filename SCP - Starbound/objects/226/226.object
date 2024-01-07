@@ -1,0 +1,26 @@
+{
+  "objectName" : "scp226",
+  "colonyTags" : ["scp"],
+  "rarity" : "Rare",
+  "description" : "Puzzle Of Terror",
+  "shortdescription" : "SCP-226",
+ 
+  "category" : "decorative",
+  "price" : 1000,
+
+ 
+  "inventoryIcon" : "226icon.png",
+  "orientations" : [
+    {
+      "dualImage" : "226.png:<color>",
+
+      "imagePosition" : [-8, 0],
+      "frames" : 1,
+      "animationCycle" : 1.0,
+
+      "spaceScan" : 0.1,
+      "anchors" : [ "bottom" ]
+
+    }
+  ]
+}

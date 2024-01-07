@@ -1,0 +1,46 @@
+{
+  "objectName" : "scp223",
+  "colonyTags" : ["scp"],
+  "rarity" : "Rare",
+  "objectType" : "container",
+  "tooltipKind" : "container",
+  "health" : 1.5,
+
+  "category" : "storage",
+  "price" : 0,
+  "printable" : false,
+  "description" : "A Photo Album.",
+  "shortdescription" : "SCP-223",
+
+ 
+
+  "inventoryIcon" : "223icon.png",
+  "orientations" : [
+    {
+      "imageLayers" : [ { "image" : "223.png:<color>.<key>", "fullbright" : true }, { "image" : "223lit.png:<color>.<key>" } ],
+      "imagePosition" : [0, 0],
+
+      "direction" : "left",
+      "flipImages" : true,
+
+      "spaceScan" : 0.1,
+      "anchors" : [ "bottom" ]
+    },
+    {
+      "imageLayers" : [ { "image" : "223.png:<color>.<key>", "fullbright" : true }, { "image" : "223lit.png:<color>.<key>" } ],
+      "imagePosition" : [0, 0],
+
+      "direction" : "right",
+
+      "spaceScan" : 0.1,
+      "anchors" : [ "bottom" ]
+    }
+  ],
+
+  "openSounds" : [ "/sfx/projectiles/paperplane_impact.ogg" ],
+  "closeSounds" : [ "/sfx/projectiles/paperplane_impact.ogg" ],
+  "slotCount" : 24,
+  "uiConfig" : "/interface/chests/chest<slots>.config",
+  "frameCooldown" : 5,
+  "autoCloseCooldown" : 3600
+}

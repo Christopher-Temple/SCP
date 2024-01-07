@@ -1,0 +1,60 @@
+{
+  "objectName" : "scpportal",
+  "colonyTags" : ["scp"],
+  "objectType" : "teleporter",
+  "rarity" : "Legendary",
+  "description" : "A mysterious portal to SCP Foundation Site-116 ",
+  "shortdescription" : "Site-116 Portal",
+  "price" : 3000,
+  "printable" : false,
+
+
+  "category" : "teleporter",
+  "lightColor" : [94, 217, 249],
+  "lightPosition" : [0, 1],
+
+  "interactAction" : "OpenTeleportDialog",
+  "interactData" : "/interface/warping/site116.config",
+
+  "inventoryIcon" : "portalicon.png",
+  "orientations" : [
+    {
+      "imageLayers" : [ { "image" : "portal.png:<frame>.<color>", "fullbright" : true }, { "image" : "portallit.png:<frame>.<color>" } ],
+
+      "imagePosition" : [-16, 0],
+      "frames" : 13,
+      "animationCycle" : 2.5,
+
+      "spaceScan" : 0.1,
+      "anchors" : [ "bottom" ],
+      "collision" : "solid",
+      "collisionSpaces" : [ [-2, 0], [-1, 0], [0, 0], [1, 0] ]
+    }
+  ],
+
+  "health" : 50,
+  "rooting" : true,
+
+  
+  "teleporterFootPosition" : [0, 0],
+
+  "scripts" : [ "/scripts/npcToyObject.lua"],
+  "npcToy" : {
+    "influence" : [
+      "teleporter",
+      "teleporterComplete"
+    ],
+    "defaultReactions" : {
+      "teleporter" : [
+        [1.0, "beamaway"]
+      ],
+      "teleporterComplete" : [
+        [1.0, "vomit"],
+        [1.0, "smile"]
+      ]
+    },
+    "preciseStandPositionLeft" : [0, 0.0],
+    "preciseStandPositionRight" : [0, 0.0],
+    "maxNpcs" : 1
+  }
+}

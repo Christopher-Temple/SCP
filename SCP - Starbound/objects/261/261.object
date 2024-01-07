@@ -1,0 +1,88 @@
+{
+  "objectName" : "scp261",
+  "colonyTags" : ["scp"],
+  "rarity" : "Rare",
+  "category" : "other",
+  "price" : 300,
+  "printable" : false,
+  "description" : "Pan-Dimensional Vending",
+  "shortdescription" : "SCP-261",
+  "race" : "generic",
+
+  "interactAction" : "OpenMerchantInterface",
+  "interactData" : {
+    "config" : "/interface/windowconfig/vendingmachine.config",
+    "paneLayoutOverride" : {
+      "windowtitle" : {
+        "title" : " SCP-261",
+        "subtitle" : " Pan-Dimensional Vending"
+      }
+    },
+    "buyFactor" : 0.5,
+    "sellFactor" : 0.2,
+    "items" : [
+      { "item" : "oculemonade" },
+      { "item" : "soda" },
+      { "item" : "chocolate" },
+      { "item" : "bottledwater" }
+    ]
+  },
+
+  "inventoryIcon" : "261icon.png",
+  "orientations" : [
+    {
+      "image" : "261.png:<color>",
+      "imagePosition" : [-16, -0],
+
+      "direction" : "left",
+      "flipImages" : true,
+
+      "spaceScan" : 0.1,
+      "anchors" : ["bottom"]
+    },
+    {
+      "image" : "261.png:<color>",
+      "imagePosition" : [-16, -0],
+
+      "direction" : "right",
+
+      "spaceScan" : 0.1,
+      "anchors" : ["bottom"]
+    }
+  ],
+
+  "soundEffect" : "/sfx/objects/fluorescent_light_loud.ogg",
+  "soundEffectRangeMultiplier" : 0.5,
+
+  "scripts" : [
+    "/scripts/npcToyObject.lua"
+  ],
+  "scriptDelta" : 60,
+
+  "npcToy" : {
+    "influence" : [
+      "vendingmachineActivate",
+      "vendingmachineCollect",
+      "vendingmachineConsume",
+      "vendingmachineComplete"
+    ],
+    "defaultReactions" : {
+      "vendingmachineActivate" : [
+        [1.0, "pressbutton"]
+      ],
+      "vendingmachineCollect" : [
+        [1.0, "crouchcollect"]
+      ],
+      "vendingmachineConsume" : [
+        [1.0, "drink"]
+      ],
+      "vendingmachineComplete" : [
+        [1.0, "smile"],
+        [0.1, "vomit"]
+      ]
+    },
+    "preciseStandPositionLeft" : [-2.0, 1.0],
+    "preciseStandPositionRight" : [2.0, 1.0],
+    "maxNpcs" : 1
+  }
+}

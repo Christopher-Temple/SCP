@@ -1,0 +1,43 @@
+{
+  "objectName" : "scp1762",
+  "colonyTags" : ["scp", "misc"],
+  "rarity" : "Common",
+  "category" : "decorative",
+  "price" : 80,
+  "printable" : false,
+
+  "description" : "HERE BE DRAGONS",
+  "shortdescription" : "SCP-1762",
+  "race" : "generic",
+
+
+  "inventoryIcon" : "icon.png",
+  "orientations" : [
+    {
+      "dualImage" : "1762.png:<color>",
+      "imagePosition" : [-24, 0],
+
+      "spaceScan" : 0.1,
+      "anchors" : [ "bottom" ]
+    }
+  ],
+  
+  "scripts" : [ "/objects/1762/1762.lua" ],
+  "scriptDelta" : 10,
+
+  "inputNodes" : [ [-1, 0] ],
+
+  "spawner" : {
+    "monsterTypes" : ["scp1762-2g","scp1762-2r","scp1762-2w","scp1762-2y"],
+    "monsterLevel" : [1, 2],
+    "monsterParams" : {
+      "aggressive" : false
+    },
+    "position" : [0, 2],
+    "positionVariance" : [0, 0],
+    "frequency" : [1.0, 5.0],
+    "stock" : -1,
+    "trigger" : "wire",
+    "outOfSight" : false
+  }
+}

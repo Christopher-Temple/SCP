@@ -1,0 +1,41 @@
+{
+  "objectName" : "scp458",
+  "rarity" : "Common",
+  "category" : "decorative",
+  "price" : 500,
+
+  "description" : "The Never-Ending Pizza Box",
+  "shortdescription" : "SCP-458",
+  "race" : "hylotl",
+  
+
+  "inventoryIcon" : "icon.png",
+  "orientations" : [
+    {
+      "dualImage" : "pizzaspwn.png",
+      "imagePosition" : [0, 0],
+      "frames" : 1,
+      "animationCycle" : 0.4,
+
+      "spaceScan" : 0.1,
+      "anchors" : [ "bottom" ]
+
+    }
+  ],
+    "interactAction" : "OpenMerchantInterface",
+  "interactData" : {
+    "config" : "/interface/windowconfig/merchant.config",
+    "paneLayoutOverride" : {
+      "windowtitle" : {
+        "title" : " SCP-458",
+        "subtitle" : " ^#b9b5b2;The Never Ending Pizza Box"
+      }
+    },
+    "buyFactor" : 0.1,
+    "sellFactor" : 0.1,
+    "items" : [
+      { "item" : "458pizza" }
+    ]
+  }
+   
+}

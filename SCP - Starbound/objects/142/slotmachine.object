@@ -1,0 +1,74 @@
+{
+	"objectName" : "scp142",
+	"rarity" : "Common",
+	"description" : "One-Armed Bandit.",
+	"shortdescription" : "SCP-142",
+	"printable" : false,
+	
+
+	"inventoryIcon" : "slotmachineicon.png",
+	"orientations" : [
+    {
+      "image" : "slotmachine.png:<frame>",
+      "flipImages" : true,
+      "direction" : "left",
+      "lightPosition" : [0, 1],
+
+      "imagePosition" : [-8, 0],
+      "frames" : 4,
+      "animationCycle" : 0.5,
+
+      "spaceScan" : 0.1,
+      "anchors" : [ "bottom" ]
+    },
+    {
+      "image" : "slotmachine.png:<frame>",
+      "direction" : "right",
+      "lightPosition" : [0, 1],
+
+      "imagePosition" : [-8, 0],
+      "frames" : 4,
+      "animationCycle" : 0.5,
+
+      "spaceScan" : 0.1,
+      "anchors" : [ "bottom" ]
+    }
+  
+	],
+	
+	 "scripts" : [ "/scripts/npcToyObject.lua", "/objects/wired/switch/switch.lua"],
+  "npcToy" : {
+    "influence" : [
+      "videogame",
+      "videogame",
+      "videogameComplete"
+    ],
+    "defaultReactions" : {
+      "videogame" : [
+        [1.0, "typing"]
+      ],
+      "videogameComplete" : [
+        [1.0, "smile"],
+        [1.0, "annoyed"],
+        [1.0, "punch"]
+      ]
+    },
+    "preciseStandPositionLeft" : [-0.5, 0.0],
+    "preciseStandPositionRight" : [2.0, 0.0],
+    "maxNpcs" : 1
+  },
+  
+  "animation" : "slotmachine.animation",
+  "animationCustom" : {
+    "sounds" : {
+      "on" : [ "/sfx/objects/console_generic_switchon.ogg" ],
+      "off" : [ "/sfx/objects/console_generic_switchoff.ogg" ]
+    }
+  },
+  "animationParts" : {
+    "bg" : "slotmachine.png"
+  },
+  "animationPosition" : [-8, 0],
+
+  "outputNodes" : [ [0, 0] ]
+}

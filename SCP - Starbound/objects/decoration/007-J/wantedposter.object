@@ -1,0 +1,23 @@
+{
+  "objectName" : "007J",
+  "colonyTags" : ["scp"],
+  "rarity" : "Common",
+  "category" : "decorative",
+  "price" : 55,
+  "description" : "A faded poster, offering a reward for finding SCP-007-J.",
+  "shortdescription" : "007-J Wanted",
+ 
+ 
+  "inventoryIcon" : "wantedpostericon.png",
+  "orientations" : [
+    {
+      "image" : "wantedposter.png:<color>",
+      "imagePosition" : [-8, -8],
+      
+      "direction" : "right",
+
+      "spaceScan" : 0.1,
+      "anchors" : [ "background" ]
+    }
+  ]
+}
