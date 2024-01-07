@@ -1,0 +1,19 @@
+{
+  "layers" : [
+    {
+      "kind" : "scpsky",
+      "nohueshift" : true,
+      "baseCount" : 4,
+      "repeatY" : true,
+      "parallax" : 1.5,
+      "minSpeed" : 10000,
+      "maxSpeed" : 15000
+    },
+    {
+      "kind" : "scpskygray",
+      "nohueshift" : true,
+      "repeatY" : true,
+      "parallax" : 5
+    }
+  ]
+}

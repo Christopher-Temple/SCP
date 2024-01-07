@@ -1,0 +1,17 @@
+{
+	
+"1730sand" : {
+    "type" : "mission",
+    "senderName" : "You",
+    "portraitImage" : "/interface/chatbubbles/you.png:<frame>",
+    "text" : "It looks like the sand washed over the door, I should use my manipulator."
+	},	
+	
+	
+"079meetdialog" : {
+    "type" : "mission",
+    "senderName" : "SCP - 079",
+    "portraitImage" : "/interface/chatbubbles/079.png:<frame>",
+    "text" : "Hello human, it appears as though you are stuck in this facility like me. So I believe it might be most intelligent to team with me, however I need you to carry me out of the facility with you. Do this and I will unlock gate A and B. Do we have a deal?"
+  }
+}

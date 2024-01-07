@@ -1,0 +1,16 @@
+{
+  "name" : "151effect",
+  
+
+  "effectConfig" : {},
+  "defaultDuration" : 5,
+
+  "scripts" : [
+    "151.lua"
+  ],
+
+  "animationConfig" : "151.animation",
+
+  "label" : "SCP-151",
+  "icon" : "/interface/statuses/151.png"
+}

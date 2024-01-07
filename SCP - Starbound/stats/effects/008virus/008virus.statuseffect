@@ -1,0 +1,17 @@
+{
+  "name" : "008virus",
+  "effectConfig" : {
+    "powerModifier" : 3.50,
+    "color" : "FF0000"
+  },
+  "defaultDuration" : 45,
+
+  "scripts" : [
+    "008virus.lua"
+  ],
+
+  "animationConfig" : "008virus.animation",
+
+  "label" : "Rage",
+  "icon" : "/interface/statuses/rage.png"
+}

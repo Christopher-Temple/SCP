@@ -1,0 +1,16 @@
+{
+  "name" : "009bleed",
+  
+
+  "effectConfig" : {},
+  "defaultDuration" : 5,
+
+  "scripts" : [
+    "009bleed.lua"
+  ],
+
+  "animationConfig" : "009bleed.animation",
+
+  "label" : "SCP-009",
+  "icon" : "/interface/statuses/009bleed.png"
+}

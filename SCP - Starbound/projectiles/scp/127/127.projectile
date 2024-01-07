@@ -1,0 +1,12 @@
+{
+  "projectileName" : "127",
+  "image" : "127.png",
+  "animationCycle" : 0.25,
+  "frameNumber" : 1,
+  "damageKindImage" : "icon.png",
+  "pointLight" : false,
+  "actionOnReap" : [ ],
+  "power" : 8.0,
+  "speed" : 45,
+  "damageKind" : "default"
+}

@@ -1,0 +1,39 @@
+{
+  "id" : "scpintroquest",
+  "prerequisites" : [],
+  "title" : "^green;SCP Foundation",
+  "text" : "Watch ^red; The Foundation's ^white;video that was sent to you. Crafted by pressing 'C'",
+  "completionText" : "Welcome to the team.",
+   "completionCinema" : "/cinematics/scp/intro/intro.cinematic",
+  "rewards" : [
+    [ [ "scpcrate", 1] ]
+  ],
+  "moneyRange" : [10, 10],
+
+  "updateDelta" : 10,
+  "script" : "/quests/scripts/scp_main.lua",
+  "scriptConfig" : {
+    "portraits" : {
+      "default" : "player"
+    },
+	"requireTurnIn" : false,
+    "conditions" : [
+      {
+        "type" : "gatherItem",
+        "itemName" : "scpintro",
+        "count" : 1,
+        "consume" : true
+      }
+    ]
+  },
+   "radioMessages" : {
+   "start" : {
+        "messageId" : "scp_start",
+        "type" : "quest",
+        "unique" : false,
+        "senderName" : "The Foundation",
+        "text" : "We at ^red;The Foundation^white; have been following your activities with great interest. We believe you have skill necessary to join us. If you are interested, we have sent you an introduction video to watch.",
+        "portraitImage" : "/interface/chatbubbles/guard.png:<frame>"
+      }
+   }
+}

@@ -1,0 +1,82 @@
+[
+  {
+    "op" : "add",
+    "path" : "/002",
+    "value" : {
+      "primaryDungeon" : "002",
+      "threatLevel" : 1,
+      "gravity" : 40,
+      "worldSize" : [2000, 2000],
+      "dungeonBaseHeight" : 1000,
+      "ambientLightLevel" : [75, 85, 100],
+	  "ambientNoises" : "/sfx/environmental/space_loop2.ogg"
+    }
+  },
+  {
+    "op" : "add",
+    "path" : "/004",
+    "value" : {
+      "primaryDungeon" : "004",
+      "threatLevel" : 1,
+      "gravity" : 40,
+      "worldSize" : [2000, 2000],
+      "dungeonBaseHeight" : 1000,
+      "ambientLightLevel" : [75, 85, 100],
+	  "ambientNoises" : "/sfx/environmental/space_loop2.ogg"
+    }
+  },
+  {
+    "op" : "add",
+    "path" : "/004-1",
+    "value" : {
+      "primaryDungeon" : "004-1",
+      "threatLevel" : 1,
+      "gravity" : 40,
+      "worldSize" : [2000, 2000],
+      "dungeonBaseHeight" : 1000,
+      "ambientLightLevel" : [75, 85, 100],
+	  "ambientNoises" : "/sfx/environmental/space_loop2.ogg"
+    }
+  },
+  {
+    "op" : "add",
+    "path" : "/004-2",
+    "value" : {
+      "primaryDungeon" : "004-2",
+      "threatLevel" : 1,
+      "gravity" : 40,
+      "worldSize" : [2000, 2000],
+      "dungeonBaseHeight" : 1000,
+      "ambientLightLevel" : [75, 85, 100],
+	  "ambientNoises" : "/sfx/environmental/space_loop2.ogg"
+    }
+  },
+  {
+    "op" : "add",
+    "path" : "/site116",
+    "value" : {
+      "primaryDungeon" : "site116",
+      "threatLevel" : 1,
+      "gravity" : 40,
+      "worldSize" : [2000, 2000],
+      "dungeonBaseHeight" : 1000,
+      "ambientLightLevel" : [75, 85, 100],
+	  "ambientNoises" : "/sfx/environmental/space_loop2.ogg"
+    }
+  },
+  
+  {
+    "op" : "add",
+    "path" : "/035",
+    "value" : {
+      "primaryDungeon" : "035",
+      "threatLevel" : 2,
+      "gravity" : 80,
+      "worldSize" : [2000, 2000],
+      "dungeonBaseHeight" : 1000,
+      "ambientLightLevel" : [200, 200, 200],
+      "musicTrack" : "/music/ocean-battle1.ogg",
+      "biome": "alien"
+    }
+  }
+]

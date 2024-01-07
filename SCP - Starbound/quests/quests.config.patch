@@ -1,0 +1,42 @@
+[
+  {
+    "op": "add",
+    "path": "/initialquests/glitch/-",
+    "value": "scpintroquest"
+  },
+  {
+    "op": "add",
+    "path": "/initialquests/human/-",
+    "value": "scpintroquest"
+  },
+  {
+    "op": "add",
+    "path": "/initialquests/avian/-",
+    "value": "scpintroquest"
+  },
+  {
+    "op": "add",
+    "path": "/initialquests/apex/-",
+    "value": "scpintroquest"
+  },
+  {
+    "op": "add",
+    "path": "/initialquests/floran/-",
+    "value": "scpintroquest"
+  },
+  {
+    "op": "add",
+    "path": "/initialquests/hylotl/-",
+    "value": "scpintroquest"
+  },
+  {
+    "op": "add",
+    "path": "/initialquests/novakid/-",
+    "value": "scpintroquest"
+  },
+  {
+    "op": "add",
+    "path": "/initialquests/penguin/-",
+    "value": "scpintroquest"
+  }
+]

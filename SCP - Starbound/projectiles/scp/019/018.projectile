@@ -1,0 +1,23 @@
+{
+  "projectileName" : "019proj",
+  "image" : "019.png",
+  "animationCycle" : 0.25,
+  "frameNumber" : 1,
+  "damageKindImage" : "icon.png",
+  "pointLight" : false,
+ 
+  "power" : 0.1,
+  "speed" : 0.1,
+  "damageKind" : "default",
+
+  "actionOnReap" : [
+    {
+      "action" : "spawnmonster",
+      "type" : "bobot",
+	  "level" : 1,
+	  "offset": [ 0, 2 ],
+      "arguments" : { }
+    }
+  ]
+  
+}

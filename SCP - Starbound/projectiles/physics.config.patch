@@ -1,0 +1,36 @@
+[
+  {
+    "op": "add",
+    "path": "/scp018",
+    "value": {
+      "mass": 3,
+      "gravityMultiplier": 0.5,
+      "bounceFactor": 2,
+      "stopOnFirstBounce": true,
+      "maxMovementPerStep": 1,
+      "collisionPoly": [
+        [
+          0.5,
+          0.5
+        ],
+        [
+          -0.5,
+          0.5
+        ],
+        [
+          -0.5,
+          -0.5
+        ],
+        [
+          0.5,
+          -0.5
+        ]
+      ],
+      "airFriction": 1.8,
+      "liquidFriction": 8,
+      "groundFriction": 1.8,
+      "liquidBuoyancy": 2,
+      "maximumCorrection": 0.75
+    }
+  }
+]

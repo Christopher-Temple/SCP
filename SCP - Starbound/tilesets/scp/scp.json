@@ -1,0 +1,58 @@
+{ "columns":0,
+ "grid":
+    {
+     "height":16,
+     "orientation":"orthogonal",
+     "width":16
+    },
+ "margin":0,
+ "name":"1",
+ "properties":
+    {
+     "\/\/description":"A light metallic tile, perfect for a research laboratory.",
+     "\/\/name":"lightmetal",
+     "\/\/shortdescription":"Light Metal",
+     "material":"test"
+    },
+ "propertytypes":
+    {
+     "\/\/description":"string",
+     "\/\/name":"string",
+     "\/\/shortdescription":"string",
+     "material":"string"
+    },
+ "spacing":0,
+ "tilecount":1,
+ "tileheight":8,
+ "tileproperties":
+    {
+     "2":
+        {
+         "\/\/description":"A light metallic tile, perfect for a research laboratory.",
+         "\/\/name":"lightmetal",
+         "\/\/shortdescription":"Light Metal",
+         "material":"test"
+        }
+    },
+ "tilepropertytypes":
+    {
+     "2":
+        {
+         "\/\/description":"string",
+         "\/\/name":"string",
+         "\/\/shortdescription":"string",
+         "material":"string"
+        }
+    },
+ "tiles":
+    {
+     "2":
+        {
+         "image":"..\/..\/..\/..\/tiled\/packed\/scp\/test.png",
+         "imageheight":8,
+         "imagewidth":8
+        }
+    },
+ "tilewidth":8,
+ "type":"tileset"
+}

@@ -1,0 +1,8 @@
+005 added held item - no effect
+006 - heals when swimming in it
+008 - thrown vial - damages and enrages target, slows target
+010 - pet collar + damage
+014 - placeable object
+015 - placeable object
+016 - throwable - heavy bleed damage. will kill
+

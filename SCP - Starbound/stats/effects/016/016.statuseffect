@@ -1,0 +1,16 @@
+{
+  "name" : "016virus",
+  
+
+  "effectConfig" : {},
+  "defaultDuration" : 25,
+
+  "scripts" : [
+    "016.lua"
+  ],
+
+  "animationConfig" : "016.animation",
+
+  "label" : "SCP-016",
+  "icon" : "/interface/statuses/009bleed.png"
+}

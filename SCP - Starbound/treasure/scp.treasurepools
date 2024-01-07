@@ -1,0 +1,94 @@
+{
+   "mtfCrate" : [
+    [0, {
+      "fill" : [
+        { "item" : "scpmtfhead" },
+        { "item" : "scpmtflegs" },
+        { "item" : "scpmtfchest" },
+        { "item" : "scpsmg" },
+		 { "item" : "scpportal" },
+		{"item" : "scpbook-codex"}
+      ]
+    }]
+  ],
+  
+  "scpGunCrate" : [
+    [0, {
+      "fill" : [
+        { "item" : "scp44magnum" },
+        { "item" : "scpcoltm1911" },
+        { "item" : "scpdeagle" },
+        { "item" : "scpglock18" },
+		 { "item" : "scpsw357" },
+		  { "item" : "scpmac10" },
+        { "item" : "scpplr16" },
+        { "item" : "scpskorpion" },
+        { "item" : "scpvector" },
+		 { "item" : "scpar15" }
+      ]
+    }]
+  ],
+  
+  "scp035" : [
+    [0, {
+      "pool" : [
+        {"weight" : 0.3, "item" : "scp035"}
+      ]
+    }]
+  ],
+  
+  "scp" : [
+    [0, {
+      "pool" : [
+        {"weight" : 0.3, "item" : "scp035"},
+		{"weight" : 0.3, "item" : "scp013"},
+		{"weight" : 0.3, "item" : "scp018"},
+		{"weight" : 0.3, "item" : "lliquidscp009"},
+		{"weight" : 0.3, "item" : "scp002"},
+		{"weight" : 0.3, "item" : "scp003-1"},
+		{"weight" : 0.3, "item" : "scp004"},
+		{"weight" : 0.3, "item" : "scp012"},
+		{"weight" : 0.3, "item" : "scp019"},
+		{"weight" : 0.3, "item" : "scp025"},
+		{"weight" : 0.3, "item" : "scp037"},
+		{"weight" : 0.3, "item" : "scp079"},
+		{"weight" : 0.3, "item" : "007box"},
+		{"weight" : 0.3, "item" : "035box"},
+		{"weight" : 0.3, "item" : "049box"},
+		{"weight" : 0.3, "item" : "scp034"},
+		{"weight" : 0.3, "item" : "scp078"},
+		{"weight" : 0.3, "item" : "scp090"},
+		{"weight" : 0.3, "item" : "scp091"},
+		{"weight" : 0.3, "item" : "scp095"},
+		{"weight" : 0.3, "item" : "111box"},
+		{"weight" : 0.3, "item" : "scp119"},
+		{"weight" : 0.3, "item" : "scp127"},
+		{"weight" : 0.3, "item" : "scp139"},
+		{"weight" : 0.3, "item" : "scp120"},
+		{"weight" : 0.3, "item" : "scp140"},
+		{"weight" : 0.3, "item" : "scp141"},
+		{"weight" : 0.3, "item" : "scp142"},
+		{"weight" : 0.3, "item" : "scp159"},
+		{"weight" : 0.3, "item" : "scp151"},
+		{"weight" : 0.3, "item" : "scp161"},
+		{"weight" : 0.3, "item" : "076box"},
+		{"weight" : 0.3, "item" : "scp178"},
+		{"weight" : 0.3, "item" : "scp195"},
+		{"weight" : 0.3, "item" : "scp198"},
+		{"weight" : 0.3, "item" : "scp221"},
+		{"weight" : 0.3, "item" : "scp223"},
+		{"weight" : 0.3, "item" : "scp224"},
+		{"weight" : 0.3, "item" : "scp1762"},
+		{"weight" : 0.3, "item" : "scp063"},
+		{"weight" : 0.3, "item" : "scp458"},
+		{"weight" : 0.3, "item" : "scp005"},
+		{"weight" : 0.3, "item" : "lliquidscp006"},
+		{"weight" : 0.3, "item" : "scp008"},
+		{"weight" : 0.3, "item" : "scp010"},
+		{"weight" : 0.3, "item" : "scp014"},
+		{"weight" : 0.3, "item" : "scp015"},
+		{"weight" : 0.3, "item" : "scp016"}
+      ]
+    }]
+  ]
+}
